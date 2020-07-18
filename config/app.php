@@ -146,7 +146,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        //tracy套件
+        Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,
         /*
          * Package Service Providers...
          */
